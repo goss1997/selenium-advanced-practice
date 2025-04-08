@@ -3,10 +3,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from user_agents import parse
 
-import chromedriver_autoinstaller
-
-chromedriver_autoinstaller.install()
-
 def make_user_agent(ua,is_mobile):
     user_agent = parse(ua)
     model = user_agent.device.model
