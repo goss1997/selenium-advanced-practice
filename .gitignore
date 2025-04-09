@@ -22,6 +22,7 @@ yarn.lock
 
 # Python 관련 (Python 프로젝트일 경우)
 __pycache__/
+*/__pycache__/
 *.py[cod]
 venv/
 .env
