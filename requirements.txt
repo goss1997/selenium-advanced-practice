@@ -2,3 +2,5 @@ selenium
 undetected-chromedriver
 setuptools
 user-agents
+pynput
+pyperclip
